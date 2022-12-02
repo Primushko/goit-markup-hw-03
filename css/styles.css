@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body { 
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;       
@@ -42,6 +47,10 @@ a {
     letter-spacing: 0.02em;    
     color: var(--navyblue-color);
 }
+.nav-block {
+    display: flex;
+    align-items: center;
+}
 /* logo */
 .logo-web {
     font-family: 'Raleway';    
@@ -78,6 +87,8 @@ a {
 }
 /* navigation */
 .navigation {
+    display: flex;
+    margin-left: 77px;
     font-family: 'Roboto';    
     font-weight: 500;
     font-size: 16px;
@@ -85,11 +96,19 @@ a {
     letter-spacing: 0.02em;
     color: var(--navyblue-color);    
 }
+.navigation .item + .item {
+    margin-left: 40px;
+}
 .navigation-link {
+    display: flex;
+    margin-left: auto;
     font-family: 'Roboto';     
     font-size: 16px;
     line-height: 1.5;  
     letter-spacing: 0.02em;       
+}
+.navigation-link .item + .item {
+    margin-left: 40px;
 }
 /* section-herro */
 .herro {
