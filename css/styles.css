@@ -87,8 +87,7 @@ a {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.7;  
-    display: flex;
-    align-items: center;
+    display: flex;    
     letter-spacing: 0.03em;
     text-transform: uppercase;  
     color: var(--navyblue-color);    
@@ -136,12 +135,15 @@ a {
 }
 /* section-herro */
 .herro {
-    text-align: center;
+        text-align: center;
     background: var(--navyblue-color);      
 }
-.herro-title {
+.herro-title {    
+    display: block;    
+    width: 492px;
+    padding-top: 192px;    
     margin-top: 0;    
-    margin-bottom: 48px;
+    margin-bottom: 48px;   
     font-family: 'Roboto';    
     font-weight: 500;
     font-size: 56px;
@@ -149,7 +151,7 @@ a {
     letter-spacing: 0.02em;    
     color: var(--white-text-color);
 }
-.button {     
+.button { 
     align-items: center;
     background: var(--brand-color);
     font-family: 'Roboto';    
@@ -160,7 +162,7 @@ a {
     color: var(--white-text-color);   
     cursor: pointer;  
 }
-.button:hover {
+.button:hover {    
     background: var(--button-click-color);
 }
 /* section-features */
@@ -190,6 +192,11 @@ a {
 .going-foto .going-item:not(:last-child) {
     margin-right: 24px;
 }
+.going-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 /* section-team */
 .section-team {
     background: var(--cloud-color);
@@ -201,6 +208,10 @@ a {
     margin-right: 24px;
 }
 /* section-filters */
+.filters {
+    display: flex;
+    justify-content: center;
+}
 .button-all {
     background: var(--brand-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
