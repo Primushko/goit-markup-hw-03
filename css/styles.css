@@ -252,6 +252,10 @@ a {
     border-radius: 4px;
     color: var(--brand-color);
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* footer */
 .footer-dark {
     background: var(--navyblue-color);
