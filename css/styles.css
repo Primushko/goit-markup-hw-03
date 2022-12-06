@@ -44,8 +44,7 @@ a {
 }
 .title-header2 {  
     margin-top: 0;  
-    margin-bottom: 72px;
-    padding-top: 120px;    
+    margin-bottom: 72px;       
     font-weight: 500;
     font-size: 36px;
     line-height: 1.1;    
@@ -76,9 +75,7 @@ a {
     align-items: center;
 }
 /* logo */
-.logo-web {
-    padding-top: 20.7px;
-    padding-bottom: 20.7px;
+.logo-web {    
     font-family: 'Raleway';    
     font-weight: 800;
     font-size: 18px;
@@ -149,29 +146,23 @@ a {
 }
 /* section-herro */
 .herro {
+    padding: 192px 0;    
     text-align: center;    
     background: var(--navyblue-color);      
 }
-.herro-conteiner {
-    display: block;    
-    width: 492px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 192px;
-}
-.herro-title {       
-    font-family: 'Roboto';    
+.herro-title {  
+    margin: 0 auto 48px auto;
+    width: 492px;     
     font-weight: 500;
     font-size: 56px;
-    line-height: 1.07;     
+    line-height: 1.07;  
+    text-align: center;   
     letter-spacing: 0.02em;    
     color: var(--white-text-color);
 }
 .button { 
     align-items: center;
-    margin-top: 48px;
-    margin-bottom: 192px;    
+    margin-top: 48px;        
     width: 170px;
     height: 51px;
     background: var(--brand-color);
@@ -188,11 +179,11 @@ a {
 }
     /* section-features */
 .section-features {        
-    background: var(--white-text-color);       
+    background: var(--white-text-color); 
+    padding: 120px 0px 60px 0px;
 }
 .features {
-    display: flex;
-    padding: 120px 0px 120px 0px;        
+    display: flex;           
     list-style: 0;
 }
 .item {
@@ -207,10 +198,10 @@ a {
     /* section-going */
 .section-going {
     background: var(--white-text-color);
+    padding: 60px 0px 120px 0px;
 }
 .going-foto {
-    display: flex; 
-    padding: 0px 0px 120px 0px;   
+    display: flex;       
 }
 .going-foto .going-item:not(:last-child) {
     margin-right: 24px;
@@ -222,10 +213,10 @@ a {
     /* section-team */
 .section-team {
     background: var(--cloud-color);
+    padding: 120px 0 120px 0;
 }
 .team {
-    display: flex;
-    padding-bottom: 120px;
+    display: flex;    
 }
 .team .team-item:not(:last-child) {
     margin-right: 24px;
@@ -301,6 +292,8 @@ a {
     /* footer */
 .footer-dark {
     background: var(--navyblue-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .text-footer-body {
     margin-top: 16px;
@@ -314,6 +307,4 @@ a {
     display: block;
     width: 264px;
     height: auto;    
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
